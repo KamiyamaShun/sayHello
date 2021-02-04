@@ -12,7 +12,8 @@ struct ContentView: View {
         Text("こんにちはです")
             .font(.title)
             .foregroundColor(.red)
-            .padding()
+            .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            
     }
 }
 
